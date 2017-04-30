@@ -31,9 +31,9 @@
                 </button>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <div id="logo">
-                    <a class="navbar-brand navbar-left" href="#">Logo</a>
-                </div>
+                <ul class="nav navbar-nav navbar-left" id="logo">
+                    <li><a name="top">Logo</a></li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#locations">LOCATIONS</a></li>
                     <li><a href="#ammenities">AMMENITIES</a></li>
@@ -53,7 +53,6 @@
                 <h3>We specialize in relaxation</h3>
             </div>
             <div class="col-md-3 mainSec2">
-                <img src="../images/VillaVersilia.jpg" />
             </div>
         </div>
     </header>
@@ -115,24 +114,77 @@
     <!--AMMENITIES PAGE-->
     <main class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-                <div class="pic1">
+            <div class="col-md-4 lft">
+                <div class="pic pic1">
                 </div>
                 <div class="textbox">
                     <h4>RECEPTIONS</h4>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 ctr">
                 <section>
                     <h2>A VILLA FOR EVERY OCCASION</h2>
                     <p>Whether you are vacationing with a group or by yourself, for business or pleasure, to enjoy mountains or the city, we have the villa for you.</p>
                     <button><a href="#" class="btn btn-inverse" role="button">Check It Out!</a></button>
                 </section>
             </div>
-            <div class="col-md-4">
-                <img src="../images/VillaPool.jpg" class="img-thumbnail" alt="Villa with a beautiful pool" />
+            <div class="col-md-4 rt">
+                <div class="pic pic2">
+                </div>
+                <div class="textbox">
+                    <h4>RELAX BY THE POOL</h4>
+                </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-4 lft">
+                <section>
+                    <h2>WHAT SETS US APART</h2>
+                    <p>First, when you call us, we answer the phone!  Second, we only offer villas we have personally visited and that have passed our standards (and hopefully yours!).  Third, we have been in business for 35 years and have never had an unsatisfied customer;  we are available 24/7 in case you have an unexpected problem during your stay. Your satisfaction is guaranteed ... or your money back!</p>
+                    <button><a href="#" class="btn btn-inverse" role="button">Check It Out!</a></button>
+                </section>
+            </div>
+            <div class="col-md-4 ctr">
+                <div class="pic pic3">
+                </div>
+                <div class="textbox">
+                    <h4>FEELS LIKE HOME</h4>
+                </div>
+            </div>
+            <div class="col-md-4 rt">
+                <section>
+                    <h2>TALK TO STAFF</h2>
+                    <p>Check out our amazing staff!  We have over 15 agents who together bring you 235 years of experience!  They are all devoted to helping make your experience a once-in-a-life-time adventure.  Feel free to check out the biographies and contact the agent that you feel will best fit your needs.</p>
+                    <button><a href="#" class="btn btn-inverse" role="button">Check It Out!</a></button>
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 lft">
+                <div class="pic pic4">
+                </div>
+                <div class="textbox">
+                    <h4>ENJOY THE VIEWS</h4>
+                </div>
+            </div>
+            <div class="col-md-4 ctr">
+                <section>
+                    <h2>BOOK YOUR VILLA</h2>
+                    <p>Once you have selected your destination villa, feel free to book online using this link.  An agent will personally review and confirm your registration and payment and send you a second confirmation number for your reservation.  This may seem unnecessary, but we want to ensure that your villa is ready for you when you need it!</p>
+                    <button><a href="#" class="btn btn-inverse" role="button">Check It Out!</a></button>
+                </section>
+            </div>
+            <div class="col-md-4 rt">
+                <div class="pic pic5">
+                </div>
+                <div class="textbox">
+                    <h4>PRIVATE DINING</h4>
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
@@ -193,7 +245,7 @@
                 <p>Contact us and we will get back to you within 24 hours.</p>
                 <p><span class="glyphicon glyphicon-map-marker"></span>Cleveland, OH</p>
                 <p><span class="glyphicon glyphicon-phone"></span>555-555-1212</p>
-                <p><span class="glyphicon glyphicon-envelope"></span>dkorpics7@gmail.com</p>
+                <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:dkorpics7@gmail.com">dkorpics7@gmail.com</a></p>
             </div>
             <div class="col-md-7 nopad">
                 <!--INLINE FORM-->
@@ -205,7 +257,7 @@
                         <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
                     <div>
-                        <br/>
+                        <br />
                         <input type="text" class="form-control" id="comment" placeholder="Comments">
                     </div>
                     <button type="submit"><a href="#" class="btn btn-inverse" role="button">Submit</a></button>

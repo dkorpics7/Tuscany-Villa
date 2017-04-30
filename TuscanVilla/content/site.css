@@ -36,9 +36,6 @@ nav.navbar {
     font-weight:500;
 }
 
-
-
-/*BUTTON*/
 button.navbar-toggle {
     border:1px solid white;
 }
@@ -56,7 +53,6 @@ span.icon-bar {
     background-size:cover;
     color:white;
     height:60vh;
-    width:74vw;
 }
 
 header h1 {
@@ -76,8 +72,12 @@ header h3 {
 .mainSec2 {
     padding-left: 0px;
     padding-right: 0px;
+    background-image: url('../images/VillaVersilia.jpg');
+    height:60vh;
     background-size:cover;
+    background-repeat: no-repeat;
 }
+
 
 /* HEADERS */
 header {
@@ -94,7 +94,7 @@ header a:hover {
     color:white;
 }
 
-/* LOCATION ROWS */
+/* location page */
 .locrow.inv {
     background-color:#717893;
     color:white;
@@ -129,30 +129,50 @@ section p {
 /* Amenities page*/
 
 main.container-fluid {
-    padding-top:15px;
-    padding-bottom:15px;
+    padding: 20px 20px 20px 20px;
 }
 
 main section {
     text-align: center;
 }
 
-.pic1 {
-    background: url('../images/VillaOnWater.jpg');
-    background-size:cover;
-    width:348px;
-    height:348px;
-    padding: 4px 4px 4px 4px;
+main .col-md-4.lft {
+    padding: 0px 0px 0px 20px;
 }
 
+main .col-md-4.rt {
+    padding: 0px 20px 0px 0px;
+}
+
+main .col-md-4.ctr {
+    padding: 0px 0px 0px 0px;
+}
+
+.pic {
+    background-size:cover;
+    padding: 4px 4px 4px 4px;
+    height:55vh;
+}
+
+/*  I know putting these on one lin is not best practice, but it made sense to me in the situation! */
+.pic1 { background-image: url('../images/VillaOnWater.jpg'); }
+.pic2 { background-image: url('../images/VillaPool.jpg'); }
+.pic3 { background-image: url('../images/villabedroom.jpg'); }
+.pic4 { background-image: url('../images/VillaPatio.jpg'); }
+.pic5 { background-image: url('../images/VillaTable.jpg'); }
+
+
 .textbox {
-    background-color: slategray;
+    background-color: darkslateblue;
+    background-color: rgbA(113, 120, 147, 0.75);
     color:white;
     width: 140px;
     padding: 5px 10px 5px 10px;
-    margin: 0; 
     text-align:center;  
-    position:relative;
+    position:absolute;
+    margin:auto;
+    top: 35%;
+    left: 35%;
 }
 /* reviews page*/
 
@@ -207,13 +227,7 @@ input#comment {
     height: 150px;
 }
 
-/*
-.nopad {
-    padding: 0px 0px 0px 0px;
-}
-*/
-
-/* Make buttons square*/
+/* BUTTONS */
 
 .btn {
          border-radius: 0;
