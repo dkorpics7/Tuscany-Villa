@@ -1,0 +1,202 @@
+﻿
+body {
+    /*
+    padding-top:0px;
+    background-color:#FFF6F0; */
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+/*NAVBAR STYLES*/
+nav#navvy.navbar.navbar-static-top{
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color: #717893;
+}
+
+#navvy a {
+    color:#FFF6F0;
+}
+
+#navvy a:hover{
+    background:none;
+}
+
+/*BUTTON*/
+button.navbar-toggle {
+    border:1px solid #FFF6F0;
+}
+
+span.icon-bar {
+    border: 1px solid #FFF6F0;
+}
+
+/*HOME PAGE IMAGES*/
+
+.mainSec1 {
+    background-image: url('../images/villawithpool.jpg');
+    padding-left:0px;
+    padding-right:0px;
+    background-size:cover;
+    color:white;
+    height:60vh;
+    width:74vw;
+}
+
+header h1 {
+    padding-top:20px;
+    margin-bottom:0px;
+    font-size:60px;
+}
+
+header h3 {
+    margin-top:0px;
+}
+
+.homepage {
+    padding:0px 0px 15px 0px;
+}
+
+.mainSec2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-size:cover;
+}
+
+/* HEADERS */
+header {
+    background-color: #717893;
+    color:white;
+    text-align:center;
+    padding-top:25px;
+    padding-bottom:15px;
+}
+header a { color:white; }
+
+/* LOCATION ROWS */
+.locrow.inv {
+    background-color:#717893;
+    color:white;
+}
+
+.locrow.white {
+    color:darkslateblue;
+}
+
+.img-thumbnail {
+    border: 0px;
+}
+
+.img-thumbnail.addspace {
+    padding: 20px 20px 20px 20px;
+    background-color:#717893;
+}
+
+.img-thumbnail.addwhitespace {
+    padding: 20px 20px 20px 20px;
+    background-color: white;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+section p {
+    line-height: 20px;
+}
+
+/* Amenities page*/
+
+main.container-fluid {
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+main section {
+    text-align: center;
+}
+
+.pic1 {
+    background: url('../images/VillaOnWater.jpg');
+    background-size:cover;
+    width:348px;
+    height:348px;
+    padding: 4px 4px 4px 4px;
+}
+
+.textbox {
+    background-color: slategray;
+    color:white;
+    width: 140px;
+    padding: 5px 10px 5px 10px;
+    margin: 0; 
+    text-align:center;  
+    position:relative;
+}
+/* reviews page*/
+
+p.review {
+    font-style:italic;
+}
+
+div.item {
+    padding: 40px 40px 40px 40px;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+a.carousel-control {
+    background-color:white;
+    color:darkslateblue;
+}
+
+.carousel-indicators li { 
+   background-color:lightgray;
+   color: lightgray;
+}
+
+.carousel-indicators li.active {
+    background-color:darkslategrey;
+    color:darkslategrey;
+}
+/* Contact page */
+
+.rowpad {
+    padding:30px 20px 30px 20px;
+}
+
+input {
+    margin: 5px 5px 5px 5px;
+    color:green;
+    border: 5px solid green;
+}
+
+input#name {
+    width: 20vw;
+}
+input#email {
+    width:30.5vw;
+}
+
+input#comment {
+    vertical-align:top;
+    width: 52vw;
+    height: 150px;
+
+.nopad {
+    padding: 0px 0px 0px 0px;
+}
+
+/* Make buttons square*/
+.btn {
+    border-radius:0;
+}
+
+.btn-inverse {
+    background-color: #717893;
+    color:white;
+}
+
+.btn-white {
+    background-color:white;
+    color: darkslateblue;
+}
