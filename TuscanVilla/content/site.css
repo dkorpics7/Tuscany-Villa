@@ -1,33 +1,50 @@
 ﻿
 body {
-    /*
-    padding-top:0px;
-    background-color:#FFF6F0; */
     font-family: 'Hind Guntur', sans-serif;
 }
 
 /*NAVBAR STYLES*/
+
 nav#navvy.navbar.navbar-static-top{
     margin-top:0px;
     margin-bottom:0px;
     background-color: #717893;
 }
 
+/* I love this feature to fix the navbar,but I can't get it to not cover up my headers when I use the link to jump to other pages
+nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+*/
+
 #navvy a {
-    color:#FFF6F0;
+    color:white;
 }
 
-#navvy a:hover{
-    background:none;
+#navvy a:hover {
+    background-color: lightseagreen;
+    color: white;
+    font-weight: 900;
 }
+
+#logo a:hover {
+    background-color: #717893;
+    color:white;
+    font-weight:500;
+}
+
+
 
 /*BUTTON*/
 button.navbar-toggle {
-    border:1px solid #FFF6F0;
+    border:1px solid white;
 }
 
 span.icon-bar {
-    border: 1px solid #FFF6F0;
+    border: 1px solid white;
 }
 
 /*HOME PAGE IMAGES*/
@@ -70,7 +87,12 @@ header {
     padding-top:25px;
     padding-bottom:15px;
 }
+
 header a { color:white; }
+header a:hover {
+    text-decoration:none;
+    color:white;
+}
 
 /* LOCATION ROWS */
 .locrow.inv {
@@ -158,8 +180,8 @@ a.carousel-control {
     background-color:darkslategrey;
     color:darkslategrey;
 }
-/* Contact page */
 
+/* Contact page */
 .rowpad {
     padding:30px 20px 30px 20px;
 }
@@ -173,22 +195,39 @@ input {
 input#name {
     width: 20vw;
 }
+
 input#email {
     width:30.5vw;
 }
 
 input#comment {
-    vertical-align:top;
+    left: 0;
+    top: 0;
     width: 52vw;
     height: 150px;
+}
 
+/*
 .nopad {
     padding: 0px 0px 0px 0px;
 }
+*/
 
 /* Make buttons square*/
+
 .btn {
-    border-radius:0;
+         border-radius: 0;
+     }
+
+button {
+    padding: 0px 0px 0px 0px;
+    border: 0px solid red;
+}
+
+button .btn:hover, form .btn:hover {
+    background-color: lightseagreen;
+    color: white;
+    font-weight: 900;
 }
 
 .btn-inverse {

@@ -31,14 +31,14 @@
                 </button>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#">Logo</a></li>
-                </ul>
+                <div id="logo">
+                    <a class="navbar-brand navbar-left" href="#">Logo</a>
+                </div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#aboutthegame">LOCATIONS</a></li>
-                    <li><a href="#videoclips">AMMENITIES</a></li>
-                    <li><a href="#gamecheats">REVIEWS</a></li>
-                    <li><a href="#" target="_blank">CONTACT</a></li>
+                    <li><a href="#locations">LOCATIONS</a></li>
+                    <li><a href="#ammenities">AMMENITIES</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -60,7 +60,7 @@
 
     <!--LOCATIONS HEADER-->
     <header class="container-fluid">
-        <h3>LOCATIONS</h3>
+        <h3><a name="locations">LOCATIONS</a></h3>
         <p>Some places for you to go</p>
     </header>
 
@@ -71,7 +71,7 @@
                 <section>
                     <h4>Location #1</h4>
                     <p>Farmhouse in Lucca Area, Tuscany, Italy. This renovated Tuscan farmhouse sits on a 2km gravel drive above the ancient hillside town of Barga. It is secluded yet within easy reach (20 mins) of both Barga and Castlenuovo with their many facilities for eating and entertainment. The villa has 3 double bedrooms (1 x en-suite), 2 further bedrooms, 3 bathrooms, a fully equipped kitchen, living room, terrace and pool area.</p>
-                    <a href="#" class="btn btn-inverse" role="button">Reserve Now!</a>
+                    <button><a href="#" class="btn btn-inverse" role="button">Reserve Now!</a></button>
                 </section>
             </div>
             <div class="col-md-5">
@@ -87,7 +87,7 @@
                 <section>
                     <h4>Location #2</h4>
                     <p>Villa Naxos – 3,700 sq ft of interior space, is where all of this becomes a reality. This welcoming ocean front property is set in a quiet part of the lively Naxos, Taormina’s beach town. It boasts contemporary interiors, private access to the black volcanic rocky beach below and a superb location. It is only a few minute drive from Naxos with its shops, restaurants and a larger equipped beach. The villa features its own private wellness space.</p>
-                    <a href="#" class="btn btn-white" role="button">Check It Out!</a>
+                    <button><a href="#" class="btn btn-white" role="button">Check It Out!</a></button>
                 </section>
             </div>
         </div>
@@ -96,7 +96,8 @@
             <div class="col-md-7">
                 <section>
                     <h4>Location #3</h4>
-                    <p>Three private luxury residences set on a 900 acre estate with breath-taking views overlooking vineyards and olive groves near Florence. Large immaculate living areas, air-conditioned bedrooms with en suite bathrooms compliment the original features. Two private fenced pools, a football pitch and astro-turf tennis court all within a unique unspoilt setting. English spoken.</p>                    <a href="#" class="btn btn-inverse" role="button">Join Us!</a>
+                    <p>Three private luxury residences set on a 900 acre estate with breath-taking views overlooking vineyards and olive groves near Florence. Large immaculate living areas, air-conditioned bedrooms with en suite bathrooms compliment the original features. Two private fenced pools, a football pitch and astro-turf tennis court all within a unique unspoilt setting. English spoken.</p>
+                    <button><a href="#" class="btn btn-inverse" role="button">Join Us!</a></button>
                 </section>
             </div>
             <div class="col-md-5">
@@ -107,7 +108,7 @@
 
     <!--AMMENITIES HEADER-->
     <header class="container-fluid">
-        <h3>AMMENITIES</h3>
+        <h3><a name="ammenities">AMMENITIES</a></h3>
         <p>Some stuff for you to enjoy</p>
     </header>
 
@@ -125,7 +126,7 @@
                 <section>
                     <h2>A VILLA FOR EVERY OCCASION</h2>
                     <p>Whether you are vacationing with a group or by yourself, for business or pleasure, to enjoy mountains or the city, we have the villa for you.</p>
-                    <a href="#" class="btn btn-inverse" role="button">Check It Out!</a>
+                    <button><a href="#" class="btn btn-inverse" role="button">Check It Out!</a></button>
                 </section>
             </div>
             <div class="col-md-4">
@@ -137,7 +138,7 @@
 
     <!--REVIEWS HEADER-->
     <header class="container-fluid">
-        <h3>REVIEWS</h3>
+        <h3><a name="reviews">REVIEWS</a></h3>
         <p>What our customers say</p>
     </header>
 
@@ -181,7 +182,7 @@
 
     <!--CONTACT HEADER-->
     <header class="container-fluid">
-        <h3>CONTACT</h3>
+        <h3><a name="contact">CONTACT</a></h3>
         <p>We've got the answers</p>
     </header>
 
@@ -196,28 +197,28 @@
             </div>
             <div class="col-md-7 nopad">
                 <!--INLINE FORM-->
-                <form class="form-inline">
+                <form class="form-inline" action="/action_page.php" method="get">
                     <div class="form-group ">
-                        <input type="text" class="form-control" id="name" value="Name">
+                        <input type="text" class="form-control" id="name" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" value="Email">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
                     </div>
-                </form>
-                <!--VERTICAL FORM-->
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="comment" value="Comments">
+                    <div>
+                        <br/>
+                        <input type="text" class="form-control" id="comment" placeholder="Comments">
                     </div>
-                    <button type="submit" class="btn btn-inverse">Submit</button>
+                    <button type="submit"><a href="#" class="btn btn-inverse" role="button">Submit</a></button>
+                    <button type="reset" class="btn btn-inverse">Reset</button>
                 </form>
+
             </div>
         </div>
     </div>
 
     <!--FOOTER-->
     <header class="container-fluid">
-        <a><span class="glyphicon glyphicon-chevron-up"></span></a>
+        <a href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a>
         <p>Created by:  Diane Korpics</p>
         <p>Not at all copyrighted</p>
     </header>
