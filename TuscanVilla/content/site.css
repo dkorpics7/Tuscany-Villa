@@ -172,7 +172,7 @@ main .col-md-4.ctr {
     position:absolute;
     margin:auto;
     top: 35%;
-    left: 35%;
+    left: 30%;
 }
 /* reviews page*/
 
@@ -213,11 +213,11 @@ input {
 }
 
 input#name {
-    width: 20vw;
+    width: 20.2vw;
 }
 
 input#email {
-    width:30.5vw;
+    width:31vw;
 }
 
 input#comment {
@@ -225,6 +225,16 @@ input#comment {
     top: 0;
     width: 52vw;
     height: 150px;
+}
+
+textarea {
+    padding: 10px 10px 0px 10px;
+    box-sizing: border-box;
+    width:100%;
+}
+
+.textarea {
+    padding: 0px 0px 0px 5px;
 }
 
 /* BUTTONS */
